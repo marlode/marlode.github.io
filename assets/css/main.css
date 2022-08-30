@@ -1,6 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("fontawesome-all.min.css");
 
+.hide {
+	display:none;
+  }
+.show {
+	display:block;
+}
+
+
+.popover {
+	min-width: 550px !important;
+	
+}
+
 /*
 	Astral by HTML5 UP
 	html5up.net | @ajlkn
@@ -1306,7 +1319,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-image: url("images/overlay.png"), url("images/bg.png");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;

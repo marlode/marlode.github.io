@@ -1,9 +1,28 @@
+function showInfo(){
+	var infoBox = document.getElementById("info");
+
+	if (infoBox.className === "hide") {
+		infoBox.className = "show";
+	  } else {
+		infoBox.className = "hide";
+	  }
+	
+}
+
+
+$(document).ready(function(){
+    $('[data-bs-toggle="popover"]').popover({
+        placement : 'top',
+		trigger : 'hover',
+        html : true,
+    });
+});
+
 /*
 	Astral by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
 (function($) {
 
 	var $window = $(window),
